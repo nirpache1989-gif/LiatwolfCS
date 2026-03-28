@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Liat Wolf</title>
+  <desc id="desc">Soft portrait placeholder with warm tones for Liat Wolf.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8efe4"/>
+      <stop offset="100%" stop-color="#eed8c5"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#50352f"/>
+      <stop offset="100%" stop-color="#7a534a"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9db6ad"/>
+      <stop offset="100%" stop-color="#748e86"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="400" fill="url(#bg)"/>
+  <circle cx="400" cy="260" r="210" fill="#fff8f0" opacity="0.55"/>
+  <path d="M215 700c25-132 113-222 185-222s160 90 185 222Z" fill="url(#top)"/>
+  <path d="M246 359c0-109 69-188 154-188s154 79 154 188c0 90-49 173-154 173s-154-83-154-173Z" fill="url(#hair)"/>
+  <path d="M293 335c0-84 48-144 107-144s107 60 107 144c0 68-31 155-107 155s-107-87-107-155Z" fill="#f2ccb1"/>
+  <path d="M294 336c0-65 33-122 88-141 25 49 73 88 137 100 0 14 1 27 1 41 0 68-31 154-120 154-76 0-106-87-106-154Z" fill="#f5d5bf"/>
+  <path d="M303 288c12-82 78-123 140-123 57 0 118 36 135 109-86-9-152-38-195-88-25 28-51 62-80 102Z" fill="url(#hair)"/>
+  <ellipse cx="366" cy="345" rx="10" ry="14" fill="#704c42"/>
+  <ellipse cx="445" cy="345" rx="10" ry="14" fill="#704c42"/>
+  <path d="M401 354c8 17 13 32 13 43 0 12-9 18-28 18" fill="none" stroke="#c18e75" stroke-width="8" stroke-linecap="round"/>
+  <path d="M351 432c25 25 73 25 98 0" fill="none" stroke="#c67b70" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="628" cy="163" r="52" fill="#fff7e7" opacity="0.78"/>
+  <path d="M628 121l10 24 24 10-24 10-10 24-10-24-24-10 24-10Z" fill="#dfb17c"/>
+</svg>
