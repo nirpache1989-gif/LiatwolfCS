@@ -857,7 +857,17 @@ h3,
 }
 
 .comparison-card--single .comparison-card__media img {
-  aspect-ratio: 2.05 / 1;
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.comparison-card--single .comparison-card__media {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.comparison-card--single {
+  padding: 1rem;
 }
 
 .testimonials-grid {
