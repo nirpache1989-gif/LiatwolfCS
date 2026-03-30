@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">לפני ניקיון במטבח</title>
+  <desc id="desc">איור של מטבח עמוס לפני ניקיון.</desc>
+  <rect width="800" height="500" fill="#efe6db"/>
+  <rect y="360" width="800" height="140" fill="#d4b08c"/>
+  <rect x="96" y="164" width="608" height="170" rx="22" fill="#f6f0e8" stroke="#d8c8b7"/>
+  <rect x="96" y="164" width="608" height="44" rx="22" fill="#bfd0ca"/>
+  <rect x="132" y="216" width="150" height="84" rx="18" fill="#e8ddce"/>
+  <rect x="302" y="216" width="196" height="84" rx="18" fill="#e8ddce"/>
+  <rect x="518" y="216" width="150" height="84" rx="18" fill="#e8ddce"/>
+  <rect x="330" y="214" width="140" height="18" rx="9" fill="#d5bca5"/>
+  <circle cx="370" cy="258" r="30" fill="#d7e0dc"/>
+  <circle cx="432" cy="258" r="30" fill="#d7e0dc"/>
+  <rect x="554" y="196" width="80" height="24" rx="12" fill="#f1e6da"/>
+  <rect x="156" y="196" width="84" height="24" rx="12" fill="#f1e6da"/>
+  <rect x="272" y="328" width="256" height="26" rx="13" fill="#b47662"/>
+  <circle cx="316" cy="341" r="10" fill="#f8f2ea"/>
+  <rect x="536" y="320" width="42" height="48" rx="10" fill="#8c6c58"/>
+  <rect x="586" y="332" width="60" height="22" rx="11" fill="#d0bea9"/>
+  <path d="M182 150c30-24 70-14 96 8" fill="none" stroke="#d9c0ab" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="646" cy="114" r="54" fill="#cad7c5" opacity="0.45"/>
+</svg>
