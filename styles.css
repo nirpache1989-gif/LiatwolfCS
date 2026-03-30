@@ -304,6 +304,22 @@ h3,
   box-shadow: 0 28px 72px rgba(37, 26, 16, 0.1);
 }
 
+.hero-services--enhanced::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(254, 249, 241, 0.96) 0%, rgba(254, 249, 241, 0.9) 40%, rgba(233, 247, 241, 0.7) 100%),
+    url("/assets/clean-home.svg") center / cover no-repeat;
+  opacity: 0.92;
+  pointer-events: none;
+}
+
+.hero-services--enhanced .page-hero__card {
+  background: rgba(255, 252, 247, 0.9);
+  box-shadow: 0 28px 72px rgba(37, 26, 16, 0.1);
+}
+
 .hero__card,
 .page-hero__card {
   position: relative;
@@ -588,6 +604,20 @@ h3,
   flex-direction: column;
 }
 
+.page--services .services-grid .card__icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 0.85rem;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.14);
+}
+
+.page--services .services-grid .card__icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
 .page--services .services-grid .card__photo img {
   transition: transform var(--transition);
 }
@@ -798,6 +828,12 @@ h3,
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.service-cta-inline {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
 }
 
 .story-band__wrap {
