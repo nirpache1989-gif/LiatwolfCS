@@ -351,6 +351,63 @@
         </svg>
       </a>
     </div>
+    <div class="guided-chat" data-guided-chat>
+      <button
+        class="guided-chat__launcher"
+        type="button"
+        aria-expanded="false"
+        aria-controls="guided-chat-panel"
+        data-guided-chat-launcher
+      >
+        <span class="guided-chat__launcher-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 20l1.2-5.1A8.5 8.5 0 1 1 21 11.5Z" stroke-width="1.7"></path>
+            <path d="M8.5 10.5h7" stroke-width="1.7"></path>
+            <path d="M8.5 13.5H13" stroke-width="1.7"></path>
+          </svg>
+        </span>
+        <span class="guided-chat__launcher-copy">
+          <strong>שואלים משהו קצר?</strong>
+          <span>מחיר, אזור, ואיך מתחילים</span>
+        </span>
+      </button>
+
+      <section
+        class="guided-chat__panel"
+        id="guided-chat-panel"
+        hidden
+        aria-live="polite"
+        aria-label="צ'אט שאלות קצרות עם ליאת"
+        data-guided-chat-panel
+      >
+        <div class="guided-chat__panel-head">
+          <div>
+            <strong>שואלים משהו קצר?</strong>
+            <span>כמה תשובות מהירות לפני שעוברים לוואטסאפ</span>
+          </div>
+          <button class="guided-chat__close" type="button" aria-label="סגירת הצ'אט" data-guided-chat-close>
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+        <div class="guided-chat__messages" data-guided-chat-messages></div>
+        <div class="guided-chat__options" data-guided-chat-options></div>
+
+        <div class="guided-chat__footer">
+          <button class="guided-chat__reset" type="button" data-guided-chat-reset>להתחיל מחדש</button>
+          <a
+            class="guided-chat__handoff"
+            href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%90%D7%95%D7%9C%20%D7%9B%D7%9E%D7%94%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%20%D7%A7%D7%A6%D7%A8%D7%95%D7%AA%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%94%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F."
+            target="_blank"
+            rel="noreferrer"
+            data-guided-chat-handoff
+          >
+            לעבור לוואטסאפ
+          </a>
+        </div>
+      </section>
+    </div>
+    <script src="/guided-chat.js"></script>
     <script src="/sentences.js"></script>
   </body>
 </html>
