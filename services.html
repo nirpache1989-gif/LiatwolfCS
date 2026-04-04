@@ -17,22 +17,22 @@
     <meta property="og:locale" content="he_IL" />
     <meta name="theme-color" content="#4b352f" />
     <link rel="canonical" href="https://YOUR-DOMAIN.com/services.html" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&family=Noto+Serif+Hebrew:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Noto+Serif+Hebrew:wght@700&display=swap"
       as="style"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Noto+Serif+Hebrew:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/script.js"></script>
   </head>
   <body class="page page--services">
     <!--
@@ -44,10 +44,7 @@
       <div class="container site-header__inner">
         <a class="brand" href="index.html" aria-label="ליאת וולף">
           <span class="brand__mark-wrap">
-            <img class="brand__mark" src="assets/logo-mark.png" alt="" width="48" height="48" />
-          </span>
-          <span class="brand__meta">
-            <strong>ליאת וולף</strong>
+            <img class="brand__mark" src="/assets/logo-mark.png" alt="" width="48" height="48" />
           </span>
         </a>
 
@@ -72,7 +69,7 @@
     </header>
 
     <main class="page-shell">
-      <section class="section section--compact light-section">
+      <section class="section section--compact light-section hero-services--enhanced">
         <span class="decor decor--blob decor--peach decor--hero-services magic-blob" aria-hidden="true">
           <span class="decor__inner"></span>
         </span>
@@ -81,7 +78,7 @@
         </span>
         <div class="container">
           <div class="page-hero__card">
-            <div class="page-copy story-copy">
+            <div class="page-copy">
               <span class="eyebrow">מה אפשר להתאים</span>
               <h1 class="page-hero__title">לא כל בית צריך אותו דבר. אני מתאימה את העבודה לבית.</h1>
               <p class="page-hero__text">
@@ -101,9 +98,9 @@
               </div>
             </div>
 
-            <div class="page-hero__media page-hero__media--floating page-hero__media--overlap">
+            <div class="page-hero__media">
               <div class="page-hero__image">
-                <img src="assets/clean-home.svg" alt="בית נקי ושקט" width="600" height="400" />
+                <img src="/assets/clean-home.svg" alt="בית נקי ושקט" width="600" height="400" />
               </div>
             </div>
           </div>
@@ -127,10 +124,10 @@
           </div>
 
           <div class="services-grid" data-stagger-grid>
-            <article class="card card--featured card--peach" data-animate>
+            <article class="card card--peach" data-animate>
               <div class="card__photo">
                 <img
-                  src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=300&fit=crop&crop=center"
+                  src="/assets/service-home.svg"
                   alt="סלון מסודר ונקי"
                   width="600"
                   height="300"
@@ -151,7 +148,7 @@
             <article class="card card--sage" data-animate>
               <div class="card__photo">
                 <img
-                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=240&fit=crop&crop=center"
+                  src="/assets/service-kitchen.svg"
                   alt="מטבח מואר ונקי"
                   width="400"
                   height="240"
@@ -173,7 +170,7 @@
             <article class="card card--gold" data-animate>
               <div class="card__photo">
                 <img
-                  src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=400&h=240&fit=crop&crop=center"
+                  src="/assets/service-windows.svg"
                   alt="רצפה וחלונות מבהיקים"
                   width="400"
                   height="240"
@@ -194,7 +191,7 @@
             <article class="card card--rose" data-animate>
               <div class="card__photo">
                 <img
-                  src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=240&fit=crop&crop=center"
+                  src="/assets/service-bedroom.svg"
                   alt="חדר מסודר עם מצעים נקיים"
                   width="400"
                   height="240"
@@ -271,7 +268,7 @@
           <span class="decor__inner"></span>
         </span>
         <div class="container">
-          <div class="care-panel card-featured" id="accessibility" data-animate>
+          <div class="care-panel" id="accessibility" data-animate>
             <div class="care-panel__head">
               <span class="care-panel__icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
@@ -291,6 +288,43 @@
                 <p>אני לא צריכה הסבר ארוך. מספיק לכתוב לי בקצרה מה המצב, ואני אתאים את העבודה.</p>
               </div>
 
+              <div class="sensitive-route sensitive-route--inline" data-animate>
+                <span class="eyebrow">גישה רגישה יותר</span>
+                <h3 class="sensitive-route__title">איך הכי נכון לפנות אם צריך יותר עדינות.</h3>
+                <p class="sensitive-route__text">
+                  אפשר פשוט לבחור את מה שהכי קרוב למצב שלכם. זה כבר נותן לי מספיק כיוון כדי להבין איך נכון לגשת לזה.
+                </p>
+                <div class="sensitive-route__choices">
+                  <a
+                    class="sensitive-route__choice"
+                    href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8.%20%D7%99%D7%A9%20%D7%90%D7%A6%D7%9C%D7%A0%D7%95%20%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%AA%20%D7%90%D7%95%20%D7%A7%D7%95%D7%A9%D7%99%20%D7%A4%D7%99%D7%96%D7%99%20%D7%91%D7%91%D7%99%D7%AA%2C%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%90%D7%99%D7%AA%D7%9A%20%D7%90%D7%9D%20%D7%94%D7%92%D7%99%D7%A9%D7%94%20%D7%A9%D7%9C%D7%9A%20%D7%9E%D7%AA%D7%90%D7%99%D7%9E%D7%94%20%D7%9C%D7%96%D7%94."
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <strong>מוגבלות או קושי פיזי</strong>
+                    <span>אם חשוב להתחשב בבית או בקצב שונה.</span>
+                  </a>
+                  <a
+                    class="sensitive-route__choice"
+                    href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8.%20%D7%94%D7%91%D7%99%D7%AA%20%D7%A0%D7%A2%D7%A8%D7%9D%20%D7%90%D7%A6%D7%9C%D7%A0%D7%95%20%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%94%20%D7%A7%D7%A9%D7%94%2C%20%D7%95%D7%90%D7%A0%D7%99%20%D7%A8%D7%95%D7%A6%D7%94%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%90%D7%99%D7%AA%D7%9A%20%D7%90%D7%9D%20%D7%90%D7%A4%D7%A9%D7%A8%20%D7%9C%D7%94%D7%AA%D7%97%D7%99%D7%9C%20%D7%91%D7%96%D7%94%20%D7%91%D7%A2%D7%93%D7%99%D7%A0%D7%95%D7%AA."
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <strong>בית שנערם בתקופה קשה</strong>
+                    <span>אם צריך התחלה עדינה ולא שיפוטית.</span>
+                  </a>
+                  <a
+                    class="sensitive-route__choice"
+                    href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8.%20%D7%97%D7%A9%D7%95%D7%91%20%D7%9C%D7%A0%D7%95%20%D7%A9%D7%9E%D7%99%D7%A9%D7%94%D7%99%20%D7%AA%D7%99%D7%9B%D7%A0%D7%A1%20%D7%91%D7%A9%D7%A7%D7%98%20%D7%95%D7%91%D7%9C%D7%99%20%D7%94%D7%A8%D7%91%D7%94%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%2C%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%90%D7%99%D7%AA%D7%9A%20%D7%90%D7%9D%20%D7%96%D7%94%20%D7%9E%D7%AA%D7%90%D7%99%D7%9D."
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <strong>צריך שייכנסו בשקט</strong>
+                    <span>אם חשוב לכם מעט שאלות ויותר עדינות.</span>
+                  </a>
+                </div>
+              </div>
+
               <div class="care-panel__details">
                 <h3 class="care-panel__subtitle">מה זה אומר בפועל:</h3>
                 <ul class="list">
@@ -305,7 +339,114 @@
               <div class="care-panel__note">
                 <p><strong>שימו לב:</strong> אני לא מטפלת סיעודית ולא מחליפה טיפול רפואי. אני מנקה בתים. אבל אני יודעת לעשות את זה בצורה שמתחשבת במצב שלכם.</p>
               </div>
+
+              <div class="service-cta-inline" data-animate>
+                <a
+                  class="btn btn--navy btn--breathe"
+                  href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8.%20%D7%A0%D7%A8%D7%90%D7%94%20%D7%9C%D7%99%20%D7%A9%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%A6%D7%A8%D7%99%D7%9B%D7%99%D7%9D%20%D7%92%D7%99%D7%A9%D7%94%20%D7%A8%D7%92%D7%99%D7%A9%D7%94%20%D7%99%D7%95%D7%AA%D7%A8%20%D7%91%D7%91%D7%99%D7%AA%2C%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%90%D7%99%D7%AA%D7%9A%20%D7%90%D7%9D%20%D7%96%D7%94%20%D7%9E%D7%A9%D7%94%D7%95%20%D7%A9%D7%90%D7%AA%20%D7%99%D7%9B%D7%95%D7%9C%D7%94%20%D7%9C%D7%A2%D7%96%D7%95%D7%A8%20%D7%91%D7%95."
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  צריכים גישה רגישה יותר? דברו איתי
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider section-divider--to-light-alt" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+          <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z"></path>
+        </svg>
+      </div>
+
+      <section class="section light-section light-section--alt">
+        <span class="decor decor--blob decor--sage decor--section-right" aria-hidden="true">
+          <span class="decor__inner"></span>
+        </span>
+        <div class="container">
+          <div class="section-head section-head--center" data-animate>
+            <span class="eyebrow">לפני | אחרי</span>
+            <h2 class="section-title">הבדל שרואים מיד כשנכנסים.</h2>
+          </div>
+
+          <div class="comparison-grid" data-stagger-grid>
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter1.png" alt="תמונת לפני ואחרי של ניקיון בית" width="2815" height="1374" loading="lazy" />
+              </figure>
+            </article>
+
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter2.png" alt="תמונת לפני ואחרי של ניקיון מטבח" width="2817" height="1366" loading="lazy" />
+              </figure>
+            </article>
+
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter4.png" alt="תמונת לפני ואחרי של ניקיון חדר" width="1404" height="680" loading="lazy" />
+              </figure>
+            </article>
+
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter5.png" alt="תמונת לפני ואחרי של ניקיון נוסף" width="1404" height="684" loading="lazy" />
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider section-divider--to-light" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+          <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z"></path>
+        </svg>
+      </div>
+
+      <section class="section light-section">
+        <span class="decor decor--blob decor--peach decor--section-left" aria-hidden="true">
+          <span class="decor__inner"></span>
+        </span>
+        <div class="container">
+          <div class="section-head section-head--center" data-animate>
+            <span class="eyebrow">עדויות לקוחות</span>
+            <h2 class="section-title">עוד כמה מילים מלקוחות.</h2>
+          </div>
+
+          <div class="testimonials-grid" data-stagger-grid>
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-1.svg" alt="תמונת פרופיל של לקוחה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"ליאת נכנסה בשקט, ותוך שעתיים הבית הרגיש אחר."</p>
+              <div class="testimonial-card__meta">רוני מ.</div>
+            </article>
+
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-2.svg" alt="תמונת פרופיל של לקוחה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"היא רואה גם את מה שאני תמיד דוחה לאחר כך."</p>
+              <div class="testimonial-card__meta">דנה ק.</div>
+            </article>
+
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-3.svg" alt="תמונת פרופיל של לקוחה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"הכי אהבתי שלא הייתי צריכה להסביר הרבה."</p>
+              <div class="testimonial-card__meta">נועה ש.</div>
+            </article>
+
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-4.svg" alt="תמונת פרופיל של לקוחה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"יש בה משהו רגוע ואמין. זה מורגש מהרגע הראשון."</p>
+              <div class="testimonial-card__meta">יעל ת.</div>
+            </article>
           </div>
         </div>
       </section>
@@ -391,6 +532,85 @@
         <a class="btn btn--ghost" href="tel:+972527303546">להתקשר</a>
       </div>
     </div>
-    <script src="sentences.js"></script>
+    <div class="floating-actions" aria-label="פעולות מהירות">
+      <a
+        class="floating-actions__book"
+        href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%94%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F."
+        target="_blank"
+        rel="noreferrer"
+      >
+        הזמן עכשיו
+      </a>
+      <a
+        class="floating-actions__whatsapp"
+        href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%94%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F."
+        target="_blank"
+        rel="noreferrer"
+        aria-label="שליחת הודעה בוואטסאפ"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 21a9 9 0 1 0-7.1-3.46L3 21l3.67-1.82A9 9 0 0 0 12 21Z" stroke-width="1.7"></path>
+          <path d="M9.2 9.6c.3-.7.6-.7.9-.7h.7c.2 0 .4.1.5.4l.6 1.5c.1.2.1.5 0 .7l-.5.8a.7.7 0 0 0 0 .8c.4.6 1 1.2 1.6 1.6a.7.7 0 0 0 .8 0l.8-.5c.2-.1.5-.1.7 0l1.5.6c.3.1.4.3.4.5v.7c0 .3 0 .6-.7.9-.6.3-2 .2-3.9-.8-1.9-1-3.3-3-3.7-4.1-.4-1.1-.3-1.8-.1-2.4Z" stroke-width="1.35"></path>
+        </svg>
+      </a>
+    </div>
+    <div class="guided-chat" data-guided-chat>
+      <button
+        class="guided-chat__launcher"
+        type="button"
+        aria-expanded="false"
+        aria-controls="guided-chat-panel"
+        data-guided-chat-launcher
+      >
+        <span class="guided-chat__launcher-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 20l1.2-5.1A8.5 8.5 0 1 1 21 11.5Z" stroke-width="1.7"></path>
+            <path d="M8.5 10.5h7" stroke-width="1.7"></path>
+            <path d="M8.5 13.5H13" stroke-width="1.7"></path>
+          </svg>
+        </span>
+        <span class="guided-chat__launcher-copy">
+          <strong>שואלים משהו קצר?</strong>
+          <span>מחיר, אזור, ואיך מתחילים</span>
+        </span>
+      </button>
+
+      <section
+        class="guided-chat__panel"
+        id="guided-chat-panel"
+        hidden
+        aria-live="polite"
+        aria-label="צ'אט שאלות קצרות עם ליאת"
+        data-guided-chat-panel
+      >
+        <div class="guided-chat__panel-head">
+          <div>
+            <strong>שואלים משהו קצר?</strong>
+            <span>כמה תשובות מהירות לפני שעוברים לוואטסאפ</span>
+          </div>
+          <button class="guided-chat__close" type="button" aria-label="סגירת הצ'אט" data-guided-chat-close>
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+        <div class="guided-chat__messages" data-guided-chat-messages></div>
+        <div class="guided-chat__options" data-guided-chat-options></div>
+
+        <div class="guided-chat__footer">
+          <button class="guided-chat__reset" type="button" data-guided-chat-reset>להתחיל מחדש</button>
+          <a
+            class="guided-chat__handoff"
+            href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%90%D7%95%D7%9C%20%D7%9B%D7%9E%D7%94%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%20%D7%A7%D7%A6%D7%A8%D7%95%D7%AA%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%94%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F."
+            target="_blank"
+            rel="noreferrer"
+            data-guided-chat-handoff
+          >
+            לעבור לוואטסאפ
+          </a>
+        </div>
+      </section>
+    </div>
+    <script src="/guided-chat.js"></script>
+    <script src="/sentences.js"></script>
   </body>
 </html>

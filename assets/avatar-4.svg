@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">תמונת פרופיל לדוגמה</title>
+  <rect width="200" height="200" rx="100" fill="#eef4f2"/>
+  <circle cx="100" cy="80" r="37" fill="#efd1bd"/>
+  <path d="M56 92c0-34 18-62 48-62 28 0 48 26 44 58-18-8-40-10-60-4-8 2-18 4-32 8Z" fill="#5f4b3b"/>
+  <path d="M50 172c12-32 34-48 62-48 34 0 58 18 68 48" fill="#4bb8ac"/>
+</svg>

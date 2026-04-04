@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">מטבח נקי ומואר</title>
+  <desc id="desc">איור של מטבח מסודר עם ארונות, משטח עבודה וכלים נקיים.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8eee1"/>
+      <stop offset="100%" stop-color="#efe6db"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="126" cy="96" r="74" fill="#e8d0ba" opacity="0.58"/>
+  <circle cx="690" cy="90" r="58" fill="#c8d7c4" opacity="0.5"/>
+  <rect y="360" width="800" height="140" fill="#d8b48f"/>
+  <rect x="96" y="164" width="608" height="170" rx="22" fill="#f9f5ef" stroke="#d8c8b7"/>
+  <rect x="96" y="164" width="608" height="44" rx="22" fill="#c8d8d1"/>
+  <rect x="132" y="216" width="150" height="84" rx="18" fill="#eadfce"/>
+  <rect x="302" y="216" width="196" height="84" rx="18" fill="#eadfce"/>
+  <rect x="518" y="216" width="150" height="84" rx="18" fill="#eadfce"/>
+  <rect x="336" y="124" width="128" height="32" rx="16" fill="#8c6c58"/>
+  <rect x="362" y="140" width="76" height="18" rx="9" fill="#a98873"/>
+  <rect x="330" y="214" width="140" height="18" rx="9" fill="#d9c2aa"/>
+  <circle cx="370" cy="258" r="30" fill="#dfece7"/>
+  <circle cx="432" cy="258" r="30" fill="#dfece7"/>
+  <rect x="554" y="196" width="80" height="24" rx="12" fill="#f6ede2"/>
+  <rect x="156" y="196" width="84" height="24" rx="12" fill="#f6ede2"/>
+  <path d="M208 150c18-40 64-40 82 0" fill="none" stroke="#e9d5bb" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="208" cy="150" r="18" fill="#fffaf2"/>
+  <circle cx="290" cy="150" r="18" fill="#fffaf2"/>
+  <rect x="270" y="334" width="260" height="24" rx="12" fill="#f8f3ed"/>
+  <circle cx="640" cy="122" r="6" fill="#fffdf9"/>
+  <circle cx="666" cy="96" r="5" fill="#fffdf9"/>
+  <circle cx="692" cy="124" r="4" fill="#fffdf9"/>
+</svg>

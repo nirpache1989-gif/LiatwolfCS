@@ -17,14 +17,14 @@
     <meta property="og:locale" content="he_IL" />
     <meta name="theme-color" content="#4b352f" />
     <link rel="canonical" href="https://YOUR-DOMAIN.com/index.html" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&family=Noto+Serif+Hebrew:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Noto+Serif+Hebrew:wght@700&display=swap"
       as="style"
     />
     <link
@@ -70,8 +70,8 @@
         "sameAs": []
       }
     </script>
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/script.js"></script>
   </head>
   <body class="page page--home">
     <!--
@@ -83,10 +83,7 @@
       <div class="container site-header__inner">
         <a class="brand" href="index.html" aria-label="ליאת וולף">
           <span class="brand__mark-wrap">
-            <img class="brand__mark" src="assets/logo-mark.png" alt="" width="48" height="48" />
-          </span>
-          <span class="brand__meta">
-            <strong>ליאת וולף</strong>
+            <img class="brand__mark" src="/assets/logo-mark.png" alt="" width="48" height="48" />
           </span>
         </a>
 
@@ -111,7 +108,7 @@
     </header>
 
     <main class="page-shell">
-      <section class="hero section section--compact light-section">
+      <section class="hero hero--enhanced section section--compact light-section">
         <span class="decor decor--blob decor--peach decor--hero-home magic-blob" aria-hidden="true">
           <span class="decor__inner"></span>
         </span>
@@ -121,7 +118,7 @@
 
         <div class="container">
           <div class="hero__card">
-            <div class="page-copy story-copy">
+            <div class="page-copy">
               <span class="eyebrow">ליאת וולף | ניקיון בתים</span>
               <h1 class="hero__title">שירות ניקיון שעושה טוב לבית.</h1>
               <p class="hero__text">
@@ -144,9 +141,10 @@
                 </a>
 
                 <a class="btn btn--ghost" href="tel:+972527303546">052-730-3546</a>
+                <a class="btn btn--soft" href="#availability">קרא עוד</a>
               </div>
 
-              <div class="hero__meta soft-panel">
+              <div class="hero__meta">
                 <span class="pill">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M12 21s6-4.5 6-10a6 6 0 1 0-12 0c0 5.5 6 10 6 10Z" stroke-width="1.7" />
@@ -171,12 +169,37 @@
               </div>
             </div>
 
-            <div class="hero__media page-hero__media page-hero__media--floating page-hero__media--overlap">
+            <div class="hero__media page-hero__media">
               <div class="hero__image page-hero__image">
-                <img src="assets/clean-home.svg" alt="בית נקי ושקט" width="600" height="400" />
+                <img src="/assets/clean-home.svg" alt="בית נקי ושקט" width="600" height="400" />
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <div class="section-divider section-divider--to-light-alt" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+          <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z"></path>
+        </svg>
+      </div>
+
+      <section class="section light-section light-section--alt availability-section" id="availability">
+        <span class="decor decor--blob decor--sage decor--section-right magic-blob" aria-hidden="true">
+          <span class="decor__inner"></span>
+        </span>
+        <div class="container">
+          <div class="section-head section-head--center" data-animate>
+            <span class="eyebrow">זמינות השבוע</span>
+            <h2 class="section-title">חלונות פנויים השבוע.</h2>
+            <p class="section-text">כמה ימים שכבר פתוחים, וכמה שכבר נתפסו.</p>
+          </div>
+
+          <div class="availability-board" data-availability-board data-stagger-grid></div>
+
+          <p class="availability-note" data-animate>
+            אם לא מצאתם יום שמתאים, <a href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%9C%D7%90%20%D7%9E%D7%A6%D7%90%D7%AA%D7%99%20%D7%99%D7%95%D7%9D%20%D7%A9%D7%9E%D7%AA%D7%90%D7%99%D7%9D%20%D7%91%D7%9C%D7%95%D7%97%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%A9%D7%91%D7%95%D7%A2%20%D7%90%D7%97%D7%A8." target="_blank" rel="noreferrer">כתבו לי</a> ואבדוק מולכם שבוע אחר.
+          </p>
         </div>
       </section>
 
@@ -200,22 +223,16 @@
           </div>
 
           <div class="grid grid--3" data-stagger-grid>
-            <article class="card card--featured feature-card card--peach" data-animate>
-              <div class="card__photo">
-                <img
-                  src="assets/clean-home.svg"
-                  alt="×—×œ×œ ×‘×™×ª ×ž×•××¨ ×•× ×§×™"
-                  width="600"
-                  height="300"
-                  loading="lazy"
-                />
-              </div>
+            <article class="card feature-card card--peach" data-animate>
               <span class="card__icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="m12 3 1.6 4.4L18 9l-4.4 1.6L12 15l-1.6-4.4L6 9l4.4-1.6L12 3Z" stroke-width="1.7" />
                   <path d="m5 16 .7 1.8L7.5 19l-1.8.7L5 21.5l-.7-1.8L2.5 19l1.8-.7L5 16Z" stroke-width="1.7" />
                 </svg>
               </span>
+              <div class="feature-card__thumb">
+                <img src="/assets/service-home.svg" alt="בית נקי ומסודר" width="240" height="150" loading="lazy" />
+              </div>
               <h3 class="card__title">מגיעה לכל פינה</h3>
               <p class="card__text">מתחת לספה, מאחורי המקרר, הפינה שכולם שוכחים — אני לא שוכחת.</p>
             </article>
@@ -227,6 +244,9 @@
                   <path d="M19 3v6h-6" stroke-width="1.7" />
                 </svg>
               </span>
+              <div class="feature-card__thumb">
+                <img src="/assets/service-kitchen.svg" alt="מטבח נקי ומסודר" width="240" height="150" loading="lazy" />
+              </div>
               <h3 class="card__title">עובדת בשקט</h3>
               <p class="card__text">אתם בסלון, אני במטבח. לא שומעים אותי, רק רואים את ההבדל אחר כך.</p>
             </article>
@@ -240,6 +260,9 @@
                   <path d="m16 17 2 2 4-4" stroke-width="1.7" />
                 </svg>
               </span>
+              <div class="feature-card__thumb">
+                <img src="/assets/service-windows.svg" alt="חלונות ורצפה נקיים" width="240" height="150" loading="lazy" />
+              </div>
               <h3 class="card__title">בלי כאב ראש</h3>
               <p class="card__text">הודעה אחת בוואטסאפ, תאריך, ויאללה. בלי טפסים, בלי סיפורים.</p>
             </article>
@@ -248,6 +271,37 @@
           <p class="section-note" data-animate>
             גם אם יש מוגבלות, קושי פיזי, או שהבית נערם — <a href="services.html#accessibility">אפשר לקרוא איך אני עובדת עם זה</a>.
           </p>
+
+          <article class="sensitive-route sensitive-route--featured" data-animate>
+            <div class="sensitive-route__head">
+              <span class="sensitive-route__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z" stroke-width="1.7"></path>
+                </svg>
+              </span>
+              <div>
+                <span class="eyebrow">גישה רגישה יותר</span>
+                <h3 class="sensitive-route__title">אם צריך להיכנס בעדינות, יש כאן גם דרך כזאת.</h3>
+              </div>
+            </div>
+            <p class="sensitive-route__text">
+              אם יש מוגבלות, אם הבית נערם בתקופה לא פשוטה, או אם חשוב לכם שמישהי תיכנס בלי הרבה שאלות — אפשר לפנות גם ככה.
+            </p>
+            <p class="sensitive-route__text">
+              לא צריך להסביר הרבה. מספיק לכתוב לי שזה המצב, ואני אגיד אם אני יכולה לעזור.
+            </p>
+            <div class="btn-row sensitive-route__actions">
+              <a
+                class="btn btn--navy"
+                href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8.%20%D7%90%D7%A0%D7%99%20%D7%97%D7%95%D7%A9%D7%91%2F%D7%AA%20%D7%A9%D7%A6%D7%A8%D7%99%D7%9A%20%D7%92%D7%99%D7%A9%D7%94%20%D7%A8%D7%92%D7%99%D7%A9%D7%94%20%D7%99%D7%95%D7%AA%D7%A8%20%D7%9C%D7%91%D7%99%D7%AA%20%D7%A9%D7%9C%D7%A0%D7%95%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%90%D7%99%D7%AA%D7%9A%20%D7%90%D7%9D%20%D7%96%D7%94%20%D7%9E%D7%AA%D7%90%D7%99%D7%9D."
+                target="_blank"
+                rel="noreferrer"
+              >
+                צריכים גישה רגישה יותר?
+              </a>
+              <a class="btn btn--ghost" href="services.html#accessibility">לקרוא איך זה עובד</a>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -265,11 +319,11 @@
           <div class="split">
             <div data-animate>
               <div class="portrait">
-                <img src="assets/liat-profile.svg" alt="ליאת וולף" width="300" height="300" loading="lazy" />
+                <img src="/assets/liat-profile.svg" alt="ליאת וולף" width="300" height="300" loading="lazy" />
               </div>
             </div>
 
-            <div class="quote-card card-featured" data-animate>
+            <div class="quote-card" data-animate>
               <span class="eyebrow">קצת ממני</span>
               <p class="quote-card__text">"אני רוצה שתיכנסו הביתה ותגידו — וואו, הכל מוכן."</p>
               <div class="quote-card__author">- ליאת וולף.</div>
@@ -289,16 +343,166 @@
           <span class="decor__inner"></span>
         </span>
         <div class="container">
-          <div class="split">
-            <div class="section-head" data-animate>
-              <span class="eyebrow">דוגמאות לפניות שמגיעות אליי</span>
-              <h2 class="section-title">כמה שורות שממחישות את סוג הפניות.</h2>
-              <p class="section-text">מתוך <strong data-review-count>30+</strong> פניות דומות.</p>
-            </div>
+          <div class="section-head section-head--center" data-animate>
+            <span class="eyebrow">דוגמאות לפניות שמגיעות אליי</span>
+            <h2 class="section-title">כמה שורות שממחישות את סוג הפניות.</h2>
+            <p class="section-text">מתוך <strong data-review-count>30+</strong> פניות דומות.</p>
+          </div>
 
-            <div class="reviews-grid" data-reviews data-stagger-grid>
-              <!-- Reviews injected by reviews.js -->
-            </div>
+          <div class="reviews-grid" data-reviews data-stagger-grid>
+            <!-- Reviews injected by reviews.js -->
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider section-divider--to-light" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+          <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z"></path>
+        </svg>
+      </div>
+
+      <section class="section light-section" id="before-after">
+        <span class="decor decor--blob decor--peach decor--section-left" aria-hidden="true">
+          <span class="decor__inner"></span>
+        </span>
+        <div class="container">
+          <div class="section-head section-head--center" data-animate>
+            <span class="eyebrow">לפני | אחרי</span>
+            <h2 class="section-title">הבדל שרואים מיד כשנכנסים.</h2>
+          </div>
+
+          <div class="comparison-grid" data-stagger-grid>
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter1.png" alt="תמונת לפני ואחרי של ניקיון בית" width="2815" height="1374" loading="lazy" />
+              </figure>
+            </article>
+
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter2.png" alt="תמונת לפני ואחרי של ניקיון מטבח" width="2817" height="1366" loading="lazy" />
+              </figure>
+            </article>
+
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter4.png" alt="תמונת לפני ואחרי של ניקיון חדר" width="1404" height="680" loading="lazy" />
+              </figure>
+            </article>
+
+            <article class="comparison-card comparison-card--single" data-animate>
+              <figure class="comparison-card__media">
+                <img src="/assets/beforeafter5.png" alt="תמונת לפני ואחרי של ניקיון נוסף" width="1404" height="684" loading="lazy" />
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider section-divider--to-accent" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+          <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z"></path>
+        </svg>
+      </div>
+
+      <section class="section accent-section">
+        <span class="decor decor--blob decor--sage decor--section-right" aria-hidden="true">
+          <span class="decor__inner"></span>
+        </span>
+        <div class="container">
+          <div class="section-head section-head--center" data-animate>
+            <span class="eyebrow">עדויות לקוחות</span>
+            <h2 class="section-title">עוד כמה מילים שאנשים כתבו אחרי.</h2>
+          </div>
+
+          <div class="testimonials-grid" data-stagger-grid>
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-1.svg" alt="תמונת פרופיל לדוגמה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"ליאת שמה לב לאדנים, למאחורי הדלתות, לפינה בין המקרר לקיר. דברים שאני בעצמי שכחתי שקיימים."</p>
+              <div class="testimonial-card__meta">פינות קטנות</div>
+            </article>
+
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-2.svg" alt="תמונת פרופיל לדוגמה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"אני עובדת מהבית ופחדתי שזה יפריע. ליאת עבדה שעתיים וחצי — הייתי באמצע זום ובקושי שמעתי אותה."</p>
+              <div class="testimonial-card__meta">עבודה מהבית</div>
+            </article>
+
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-3.svg" alt="תמונת פרופיל לדוגמה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"לא נתתי מפתח לאף אחד מעולם. ליאת הייתה הראשונה. אחרי חודשיים אני כבר לא חושבת על זה פעמיים."</p>
+              <div class="testimonial-card__meta">אמון במפתח</div>
+            </article>
+
+            <article class="testimonial-card" data-animate>
+              <div class="testimonial-card__profile">
+                <img src="/assets/avatar-4.svg" alt="תמונת פרופיל לדוגמה" width="72" height="72" loading="lazy" />
+              </div>
+              <p class="testimonial-card__quote">"מישהי ברצינות, אמינה, עושה עבודה טובה ולא מסבכת. מה עוד צריך?"</p>
+              <div class="testimonial-card__meta">פשוט וברור</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider section-divider--to-light-alt" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+          <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z"></path>
+        </svg>
+      </div>
+
+      <section class="section light-section light-section--alt">
+        <span class="decor decor--blob decor--lavender decor--section-left" aria-hidden="true">
+          <span class="decor__inner"></span>
+        </span>
+        <div class="container">
+          <div class="section-head section-head--center" data-animate>
+            <span class="eyebrow">שאלות קצרות</span>
+            <h2 class="section-title">עוד כמה תשובות לפני שפונים.</h2>
+          </div>
+
+          <div class="faq-list faq-list--home">
+            <details class="faq-item" open data-animate>
+              <summary>אפשר לפנות גם אם אני עוד לא בטוח בדיוק מה צריך?</summary>
+              <div class="faq-item__content">
+                <div class="faq-item__body">
+                  כן. לא צריך רשימה. תכתבו בקצרה מה מפריע לכם בבית, ונבין יחד מה עושים.
+                </div>
+              </div>
+            </details>
+
+            <details class="faq-item" data-animate>
+              <summary>את עושה גם מקרים שדורשים יותר רגישות?</summary>
+              <div class="faq-item__content">
+                <div class="faq-item__body">
+                  כן. יש מצבים שדורשים יותר רגישות ופחות שאלות. אני יודעת לעבוד ככה.
+                </div>
+              </div>
+            </details>
+
+            <details class="faq-item" data-animate>
+              <summary>איך יודעים אם את מגיעה אלינו?</summary>
+              <div class="faq-item__content">
+                <div class="faq-item__body">
+                  תכתבו לי איפה אתם — אני אגיד מיד אם אני מגיעה.
+                </div>
+              </div>
+            </details>
+
+            <details class="faq-item" data-animate>
+              <summary>מה כדאי לכתוב בהודעה הראשונה?</summary>
+              <div class="faq-item__content">
+                <div class="faq-item__body">
+                  הודעה קצרה — מה צריך ומתי. אני אחזור אליכם בו ביום.
+                </div>
+              </div>
+            </details>
           </div>
         </div>
       </section>
@@ -386,7 +590,88 @@
         <a class="btn btn--ghost" href="tel:+972527303546">להתקשר</a>
       </div>
     </div>
-    <script src="sentences.js"></script>
-    <script src="reviews.js"></script>
+
+    <div class="floating-actions" aria-label="פעולות מהירות">
+      <a
+        class="floating-actions__book"
+        href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%94%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F."
+        target="_blank"
+        rel="noreferrer"
+      >
+        הזמן עכשיו
+      </a>
+      <a
+        class="floating-actions__whatsapp"
+        href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%94%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F."
+        target="_blank"
+        rel="noreferrer"
+        aria-label="שליחת הודעה בוואטסאפ"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 21a9 9 0 1 0-7.1-3.46L3 21l3.67-1.82A9 9 0 0 0 12 21Z" stroke-width="1.7"></path>
+          <path d="M9.2 9.6c.3-.7.6-.7.9-.7h.7c.2 0 .4.1.5.4l.6 1.5c.1.2.1.5 0 .7l-.5.8a.7.7 0 0 0 0 .8c.4.6 1 1.2 1.6 1.6a.7.7 0 0 0 .8 0l.8-.5c.2-.1.5-.1.7 0l1.5.6c.3.1.4.3.4.5v.7c0 .3 0 .6-.7.9-.6.3-2 .2-3.9-.8-1.9-1-3.3-3-3.7-4.1-.4-1.1-.3-1.8-.1-2.4Z" stroke-width="1.35"></path>
+        </svg>
+      </a>
+    </div>
+    <div class="guided-chat" data-guided-chat>
+      <button
+        class="guided-chat__launcher"
+        type="button"
+        aria-expanded="false"
+        aria-controls="guided-chat-panel"
+        data-guided-chat-launcher
+      >
+        <span class="guided-chat__launcher-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 20l1.2-5.1A8.5 8.5 0 1 1 21 11.5Z" stroke-width="1.7"></path>
+            <path d="M8.5 10.5h7" stroke-width="1.7"></path>
+            <path d="M8.5 13.5H13" stroke-width="1.7"></path>
+          </svg>
+        </span>
+        <span class="guided-chat__launcher-copy">
+          <strong>שואלים משהו קצר?</strong>
+          <span>מחיר, אזור, ואיך מתחילים</span>
+        </span>
+      </button>
+
+      <section
+        class="guided-chat__panel"
+        id="guided-chat-panel"
+        hidden
+        aria-live="polite"
+        aria-label="צ'אט שאלות קצרות עם ליאת"
+        data-guided-chat-panel
+      >
+        <div class="guided-chat__panel-head">
+          <div>
+            <strong>שואלים משהו קצר?</strong>
+            <span>כמה תשובות מהירות לפני שעוברים לוואטסאפ</span>
+          </div>
+          <button class="guided-chat__close" type="button" aria-label="סגירת הצ'אט" data-guided-chat-close>
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+        <div class="guided-chat__messages" data-guided-chat-messages></div>
+        <div class="guided-chat__options" data-guided-chat-options></div>
+
+        <div class="guided-chat__footer">
+          <button class="guided-chat__reset" type="button" data-guided-chat-reset>להתחיל מחדש</button>
+          <a
+            class="guided-chat__handoff"
+            href="https://wa.me/972527303546?text=%D7%94%D7%99%D7%99%20%D7%9C%D7%99%D7%90%D7%AA%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%90%D7%95%D7%9C%20%D7%9B%D7%9E%D7%94%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%20%D7%A7%D7%A6%D7%A8%D7%95%D7%AA%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%94%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F."
+            target="_blank"
+            rel="noreferrer"
+            data-guided-chat-handoff
+          >
+            לעבור לוואטסאפ
+          </a>
+        </div>
+      </section>
+    </div>
+    <script src="/availability.js"></script>
+    <script src="/guided-chat.js"></script>
+    <script src="/sentences.js"></script>
+    <script src="/reviews.js"></script>
   </body>
 </html>
